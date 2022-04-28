@@ -16,4 +16,4 @@ gsutil cp weather.csv gs://$PROJECT_ID/input/weather.csv
 
 cd beambqtest1/gcstogcs
 
-python3 gcstogcs.py  --project $PROJECT_ID --bucket $BUCKET
+python3 gcscsv_to_gcsjson.py  --project $PROJECT_ID --bucket $BUCKET
