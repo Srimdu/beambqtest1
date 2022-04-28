@@ -30,7 +30,7 @@ def convert_types(data):
 def run(project, bucket):
     argv = [
         '--project={0}'.format(project),
-        '--job_name=examplejob',
+        '--job_name=examplejobBQ',
         '--save_main_session',
         '--staging_location=gs://{0}/staging/'.format(bucket),
         '--temp_location=gs://{0}/temp/'.format(bucket),
