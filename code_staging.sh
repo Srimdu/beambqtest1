@@ -1,23 +1,21 @@
-#!/bin/bash
-
 gcloud config set project $(gcloud info --format='value(config.project)')
 
 export PROJECT_ID=$(gcloud info --format='value(config.project)')
 
 export BUCKET=${PROJECT_ID}
 
-git clone https://github.com/Srimdu/Beamiotest
+pip3 install apache_beam[gcp]
+
+git clone https://github.com/Srimdu/beambqtest1
 
 gsutil mb gs://$PROJECT_ID
 
-cd Beamiotest
+cd beambqtest1
 
-gsutil cp periodic_table.csv gs://$PROJECT_ID/input/periodic_table.csv
+gsutil cp weather.csv gs://$PROJECT_ID/input/weather.csv
 
 bq mk test_dataset
 
-bq mk test_dataset.table1 AtomicNumber:numeric,Element:string,Symbol:string,AtomicMass:float,NumberofNeutrons:numeric,NumberofProtons:numeric,NumberofElectrons:numeric,Phase:string,Natural:string,Metal:string,Nonmetal:string,Metalloid:string,Type:string,Discoverer:string,Year:numeric
+bq mk test_dataset.weather Data_Precipitation:float,Date_Full:date,Date_Month:integer,Date_Week_of:integer,Date_Year:integer,Station_City:string,Station_Code:string,Station_Location:string,Station_State:string,Data_Temperature_Avg_Temp:integer,Data_Temperature_Max_Temp:integer,Data_Temperature_Min_Temp:integer,Data_Wind_Direction:integer,Data_Wind_Speed:float
 
-pip install apache-beam[gcp]
-
-python3 beam_check.py  --project $PROJECT_ID --bucket $BUCKET
+python3 gcstobq.py  --project $PROJECT_ID --bucket $BUCKET
