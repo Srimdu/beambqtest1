@@ -37,9 +37,9 @@ def run(project, bucket):
         '--runner=DataflowRunner'
     ]
     
-    table_schema = 'Data_Precipitation:float,Date_Full:date,Date_Month:integer,Date_Week_of:integer,Date_Year:integer,Station_City:string,Station_Code:string,'
-        +'Station_Location:string,Station_State:string,Data_Temperature_Avg_Temp:integer,Data_Temperature_Max_Temp:integer,Data_Temperature_Min_Temp:integer,'
-        +'Data_Wind_Direction:integer,Data_Wind_Speed:float'
+    table_schema = 'Data_Precipitation:float,Date_Full:date,Date_Month:integer,Date_Week_of:integer,Date_Year:integer,Station_City:string,Station_Code:string,\
+    Station_Location:string,Station_State:string,Data_Temperature_Avg_Temp:integer,Data_Temperature_Max_Temp:integer,Data_Temperature_Min_Temp:integer,\
+    Data_Wind_Direction:integer,Data_Wind_Speed:float'
         
     file_name1 = 'gs://{}/input/weather.csv'.format(bucket)
     
