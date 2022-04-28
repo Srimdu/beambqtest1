@@ -18,6 +18,6 @@ cd beambqtest1
 
 gsutil cp weather.csv gs://$PROJECT_ID/input/weather.csv
 
-cd beambqtest1/gcstobigquery
+cd gcstobigquery
 
 python3 gcstobq.py  --project $PROJECT_ID --bucket $BUCKET
