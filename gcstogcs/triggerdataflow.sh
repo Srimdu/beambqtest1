@@ -1,3 +1,5 @@
+#!/bin/bash
+
 gcloud config set project $(gcloud info --format='value(config.project)')
 
 export PROJECT_ID=$(gcloud info --format='value(config.project)')
