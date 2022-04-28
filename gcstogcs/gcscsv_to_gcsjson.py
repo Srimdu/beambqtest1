@@ -54,7 +54,7 @@ def run(project, bucket):
         | 'FormatToDict' >> beam.Map(lambda x: {"Data_Precipitation": x[0], "Date_Full": x[1], "Date_Month": x[2], "Date_Week_of": x[3], "Date_Year": x[4], "Station_City": x[5], "Station_Code": x[6], "Station_Location": x[7],
         "Station_State": x[8], "Data_Temperature_Avg_Temp": x[9], "Data_Temperature_Max_Temp": x[10], "Data_Temperature_Min_Temp": x[11], "Data_Wind_Direction": x[12], "Data_Wind_Speed": x[13]}) 
         | 'ChangeDataType' >> beam.Map(convert_types)
-        | 'WriteToGCS' >> beam.io.WriteToJson('file_out1', file_name_suffix='.json',num_shards=1))
+        | 'WriteToGCS' >> beam.io.WriteToText('file_out1', file_name_suffix='.json',num_shards=1))
     
 
 if __name__ == '__main__':
