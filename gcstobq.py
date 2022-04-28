@@ -5,7 +5,8 @@ from apache_beam.options.pipeline_options import PipelineOptions
 
 def rm_quotes(data):
     """Function used to remove quotes in the data"""
-    data = data.replace('"','')
+    data[0] = data[0].replace('"','')
+    data[-1] = data[-1].replace('"','')
     return data
     
 def convert_types(data):
@@ -48,8 +49,8 @@ def run(project, bucket):
     with beam.Pipeline(argv=argv) as p:
 
         (p | 'ReadData' >> beam.io.ReadFromText(file_name1, skip_header_lines =1)
+        | 'SplitData' >> beam.Map(lambda x: x.split('","'))
         | 'RemovingQuotes' >> beam.Map(rm_quotes)
-        | 'SplitData' >> beam.Map(lambda x: x.split(','))
         | 'FormatToDict' >> beam.Map(lambda x: {"Data_Precipitation": x[0], "Date_Full": x[1], "Date_Month": x[2], "Date_Week_of": x[3], "Date_Year": x[4], "Station_City": x[5], "Station_Code": x[6], "Station_Location": x[7],
         "Station_State": x[8], "Data_Temperature_Avg_Temp": x[9], "Data_Temperature_Max_Temp": x[10], "Data_Temperature_Min_Temp": x[11], "Data_Wind_Direction": x[12], "Data_Wind_Speed": x[13]}) 
         | 'ChangeDataType' >> beam.Map(convert_types)
