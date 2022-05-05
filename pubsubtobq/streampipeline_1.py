@@ -59,5 +59,9 @@ if __name__ == "__main__":
     parser.add_argument('-t', '--topic', help='The Pubsub Topic', required=True)
 
     args = vars(parser.parse_args())
-
+    
+    print('Dataflow Job Started')
+    
     run(project=args['project'], bucket=args['bucket'], region=args['region'], topic=args['topic'])
+    
+    print('Job Completed')
