@@ -56,8 +56,7 @@ if __name__ == "__main__":
     parser.add_argument('-r', '--region',
                         help='Region in which to run the Dataflow job',
                         required=True)
-    parser.add_argument('-p', '--topic', help='The Pubsub Topic', required=True)
-    parser.add_argument('-p', '--sub', help='The Scbscription Name', required=True)
+    parser.add_argument('-t', '--topic', help='The Pubsub Topic', required=True)
 
     args = vars(parser.parse_args())
 
