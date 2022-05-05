@@ -4,19 +4,22 @@ import json
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions, StandardOptions
 
+#Variables needed for this pipeline
 
+input_subscription = "projects/PROJECT_ID/subscriptions/SUBSCRIPTION_NAME"
+bq_table = "PROJECT_ID:DATASET_NAME.TABLE_NAME"
 bq_schema = "Data_Precipitation:float,Date_Full:date,Date_Month:integer,Date_Week_of:integer,Date_Year:integer,Station_City:string,Station_Code:string,\
     Station_Location:string,Station_State:string,Data_Temperature_Avg_Temp:integer,Data_Temperature_Max_Temp:integer,Data_Temperature_Min_Temp:integer,\
     Data_Wind_Direction:integer,Data_Wind_Speed:float,process_timestamp:timestamp"
 
-class Parsing(beam.DoFn):
+class CustomParsing(beam.DoFn):
 
     def process(self, element: bytes, timestamp=beam.DoFn.TimestampParam, window=beam.DoFn.WindowParam):
         input_pc = json.loads(element.decode("utf-8"))
         input_pc["timestamp"] = timestamp.to_rfc3339()
         yield input_pc
 
-def run(project,bucket,region,topic,sub):
+def run(project,bucket,region,topic):
     argv = [
         '--project={0}'.format(project),
         '--job_name=pubsubtobq',
@@ -24,7 +27,8 @@ def run(project,bucket,region,topic,sub):
         '--staging_location=gs://{0}/staging/'.format(bucket),
         '--temp_location=gs://{0}/temp/'.format(bucket),
         '--region={0}'.format(region),
-        '--runner=DataflowRunner']
+        '--runner=DataflowRunner'
+    ]
     
     pipeline_options = PipelineOptions(argv=argv)
     pipeline_options.view_as(StandardOptions).streaming = True
@@ -33,13 +37,13 @@ def run(project,bucket,region,topic,sub):
     with beam.Pipeline(options=pipeline_options) as p:
         (
             p
-            | "ReadFromPubSub" >> beam.io.gcp.pubsub.ReadFromPubSub(subscription=sub, timestamp_attribute=None)
-            | "MessageParse" >> beam.ParDo(Parsing)
+            | "ReadFromPubSub" >> beam.io.gcp.pubsub.ReadFromPubSub(topic='projects/{0}/topics/{1}'.format(project,topic), timestamp_attribute=None)
+            | "MessageParse" >> beam.ParDo(CustomParsing)
             | "WriteToBigQuery" >> beam.io.WriteToBigQuery(
             '{0}:test_dataset.weather_stream'.format(project),
             schema=bq_schema,
             create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
-            write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND))
+            write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND)
         )
 
 
@@ -57,4 +61,4 @@ if __name__ == "__main__":
 
     args = vars(parser.parse_args())
 
-    run(project=args['project'], bucket=args['bucket'], region=args['region'], topic=args['topic'],sub=args['sub'])
+    run(project=args['project'], bucket=args['bucket'], region=args['region'], topic=args['topic'])
