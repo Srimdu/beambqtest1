@@ -1,7 +1,7 @@
 import apache_beam as beam
 import argparse
 from apache_beam.options.pipeline_options import PipelineOptions
-
+import json
 
 def rm_quotes(data):
     """Function used to remove quotes in the data"""
