@@ -15,7 +15,7 @@ bq_schema = "Data_Precipitation:float,Date_Full:date,Date_Month:integer,Date_Wee
 
 def json_parsing(data):
     data1 = json.loads(data)
-    data["timestamp"] = '2008-12-25T03:30:00' #Hardcoded for now. In future it'll include process event timestamp
+    data["timestamp"] = '2008-12-25 03:30:00' #Hardcoded for now. In future it'll include process event timestamp
     return data
 
 def convert_types(data):
