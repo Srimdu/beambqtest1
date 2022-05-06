@@ -3,6 +3,7 @@ import argparse
 import json
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions, StandardOptions
+import apache_beam.transforms.window as window
 
 #Variables needed for this pipeline
 
