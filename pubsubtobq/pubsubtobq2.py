@@ -80,4 +80,4 @@ if __name__ == "__main__":
     
     print('Stream Started')
 
-    run(project=args['project'], bucket=args['bucket'], region=args['region'], topic=args['topic'])
+    run(project=args.project, bucket=args.bucket, region=args.region, topic=args.topic)
