@@ -6,16 +6,16 @@ from apache_beam.options.pipeline_options import PipelineOptions, StandardOption
 
 #Variables needed for this pipeline
 
-input_subscription = "projects/PROJECT_ID/subscriptions/SUBSCRIPTION_NAME"
-bq_table = "PROJECT_ID:DATASET_NAME.TABLE_NAME"
+#input_subscription = "projects/PROJECT_ID/subscriptions/SUBSCRIPTION_NAME"
+#bq_table = "PROJECT_ID:DATASET_NAME.TABLE_NAME"
 bq_schema = "Data_Precipitation:float,Date_Full:date,Date_Month:integer,Date_Week_of:integer,Date_Year:integer,Station_City:string,Station_Code:string,\
     Station_Location:string,Station_State:string,Data_Temperature_Avg_Temp:integer,Data_Temperature_Max_Temp:integer,Data_Temperature_Min_Temp:integer,\
-    Data_Wind_Direction:integer,Data_Wind_Speed:float,process_timestamp:timestamp"
+    Data_Wind_Direction:integer,Data_Wind_Speed:float"
 
 
 def json_parsing(data):
     data1 = json.loads(data)
-    data["timestamp"] = '2008-12-25 03:30:00' #Hardcoded for now. In future it'll include process event timestamp
+    #data["timestamp"] = '2008-12-25 03:30:00' #Hardcoded for now. In future it'll include process event timestamp
     return data
 
 def convert_types(data):
@@ -60,7 +60,7 @@ def run(project,bucket,region,topic):
             | "MessageParse" >> beam.Map(json_parsing)
             | "Typeconversion" >> beam.Map(convert_types)
             | "WriteToBigQuery" >> beam.io.WriteToBigQuery(
-            '{0}:test_dataset.weather_stream'.format(project),
+            '{0}:test_dataset.weather_stream1'.format(project),
             schema=bq_schema,
             create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
             write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND)
