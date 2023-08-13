@@ -1,0 +1,319 @@
+CityCode,City,Location,State
+LYH,Lynchburg,"Lynchburg, VA",Virginia
+ENA,Kenai,"Kenai, AK",Alaska
+PBI,West Palm Beach,"West Palm Beach, FL",Florida
+ITO,Hilo,"Hilo, HI",Hawaii
+ATT,Austin/City,"Austin/City, TX",Texas
+BPT,Beaumont/Port Arthur,"Beaumont/Port Arthur, TX",Texas
+VRB,Vero Beach,"Vero Beach, FL",Florida
+MLI,Moline,"Moline, IL",Illinois
+AVP,Wilkes-Barre/Scranton,"Wilkes-Barre/Scranton, PA",Pennsylvania
+DBQ,Dubuque,"Dubuque, IA",Iowa
+SNY,Sidney,"Sidney, NE",Nebraska
+CHA,Chattanooga,"Chattanooga, TN",Tennessee
+COU,Columbia,"Columbia, MO",Missouri
+MKE,Milwaukee,"Milwaukee, WI",Wisconsin
+GGW,Glasgow,"Glasgow, MT",Montana
+CVG,Covington,"Covington, KY",Kentucky
+STC,St Cloud,"St Cloud, MN",Minnesota
+MEI,Meridian,"Meridian, MS",Mississippi
+STJ,St Joseph,"St Joseph, MO",Missouri
+DRT,Del Rio,"Del Rio, TX",Texas
+LWS,Lewiston,"Lewiston, ID",Idaho
+SBN,South Bend,"South Bend, IN",Indiana
+JKL,Jackson,"Jackson, KY",Kentucky
+YKM,Yakima,"Yakima, WA",Washington
+CAO,Clayton,"Clayton, NM",New Mexico
+GRB,Green Bay,"Green Bay, WI",Wisconsin
+GWO,Greenwood,"Greenwood, MS",Mississippi
+LGA,New York,"New York, NY",New York
+BWI,Baltimore,"Baltimore, MD",Maryland
+PIR,Pierre,"Pierre, SD",South Dakota
+STL,St Louis,"St Louis, MO",Missouri
+FTW,Fort Worth,"Fort Worth, TX",Texas
+GEG,Spokane,"Spokane, WA",Washington
+INW,Winslow,"Winslow, AZ",Arizona
+DAB,Daytona Beach,"Daytona Beach, FL",Florida
+MQT,Marquette,"Marquette, MI",Michigan
+HKY,Hickory,"Hickory, NC",North Carolina
+BNA,Nashville,"Nashville, TN",Tennessee
+ASD,Slidell,"Slidell, LA",Louisiana
+GLH,Greenville,"Greenville, MS",Mississippi
+GLD,Goodland,"Goodland, KS",Kansas
+PNC,Ponca City,"Ponca City, OK",Oklahoma
+AUS,Austin/Bergstrom,"Austin/Bergstrom, TX",Texas
+MKG,Muskegon,"Muskegon, MI",Michigan
+SYA,Shemya,"Shemya, AK",Alaska
+CTB,Cut Bank,"Cut Bank, MT",Montana
+BOI,Boise,"Boise, ID",Idaho
+ABE,Allentown,"Allentown, PA",Pennsylvania
+EKN,Elkins,"Elkins, WV",West Virginia
+PNS,Pensacola,"Pensacola, FL",Florida
+MSN,Madison,"Madison, WI",Wisconsin
+SAC,Sacramento,"Sacramento, CA",California
+BDR,Bridgeport,"Bridgeport, CT",Connecticut
+MAF,Midland,"Midland, TX",Texas
+LAN,Lansing,"Lansing, MI",Michigan
+PIT,Pittsburgh,"Pittsburgh, PA",Pennsylvania
+HOU,Houston,"Houston, TX",Texas
+TAL,Tanana,"Tanana, AK",Alaska
+ICT,Wichita,"Wichita, KS",Kansas
+MFR,Medford,"Medford, OR",Oregon
+PHL,Philadelphia,"Philadelphia, PA",Pennsylvania
+OFK,Norfolk,"Norfolk, NE",Nebraska
+CLE,Cleveland,"Cleveland, OH",Ohio
+CSV,Crossville,"Crossville, TN",Tennessee
+MEM,Memphis,"Memphis, TN",Tennessee
+RBL,Red Bluff,"Red Bluff, CA",California
+TLH,Tallahassee,"Tallahassee, FL",Florida
+ERI,Erie,"Erie, PA",Pennsylvania
+SAV,Savannah,"Savannah, GA",Georgia
+VIH,Rolla/Vichy,"Rolla/Vichy, MO",Missouri
+YNG,Youngstown/Warren,"Youngstown/Warren, OH",Ohio
+OLM,Olympia,"Olympia, WA",Washington
+FAI,Fairbanks,"Fairbanks, AK",Alaska
+SEA,Seattle,"Seattle, WA",Washington
+RAP,Rapid City,"Rapid City, SD",South Dakota
+FAT,Fresno,"Fresno, CA",California
+DTW,Detroit,"Detroit, MI",Michigan
+PVD,Providence,"Providence, RI",Rhode Island
+DCA,Washington,"Washington, VA",Virginia
+IND,Indianapolis,"Indianapolis, IN",Indiana
+SNS,Salinas,"Salinas, CA",California
+CAK,Akron,"Akron, OH",Ohio
+TOL,Toledo,"Toledo, OH",Ohio
+CID,Cedar Rapids,"Cedar Rapids, IA",Iowa
+ROA,Roanoke,"Roanoke, VA",Virginia
+CLL,College Station,"College Station, TX",Texas
+ORH,Worcester,"Worcester, MA",Massachusetts
+TYS,Knoxville,"Knoxville, TN",Tennessee
+EWR,Newark,"Newark, NJ",New Jersey
+SJT,San Angelo,"San Angelo, TX",Texas
+BKW,Beckley,"Beckley, WV",West Virginia
+SLE,Salem,"Salem, OR",Oregon
+AST,Astoria,"Astoria, OR",Oregon
+DUG,Douglas Bisbee,"Douglas Bisbee, AZ",Arizona
+EVV,Evansville,"Evansville, IN",Indiana
+CKV,Clarksville,"Clarksville, TN",Tennessee
+GLS,Galveston,"Galveston, TX",Texas
+CRW,Charleston,"Charleston, WV",West Virginia
+SYR,Syracuse,"Syracuse, NY",New York
+SAN,San Diego,"San Diego, CA",California
+ORF,Norfolk,"Norfolk, VA",Virginia
+RDD,Redding,"Redding, CA",California
+VTN,Valentine,"Valentine, NE",Nebraska
+GSP,Greer,"Greer, SC",South Carolina
+ALS,Alamosa,"Alamosa, CO",Colorado
+FNT,Flint,"Flint, MI",Michigan
+PAQ,Palmer,"Palmer, AK",Alaska
+DEW,Deer Park,"Deer Park, WA",Washington
+LND,Lander,"Lander, WY",Wyoming
+IGM,Kingman,"Kingman, AZ",Arizona
+CCR,Concord,"Concord, CA",California
+SDB,Sandberg,"Sandberg, CA",California
+RNO,Reno,"Reno, NV",Nevada
+BRO,Brownsville,"Brownsville, TX",Texas
+DHT,Dalhart,"Dalhart, TX",Texas
+BHM,Birmingham,"Birmingham, AL",Alabama
+PAH,Paducah,"Paducah, KY",Kentucky
+SIT,Sitka,"Sitka, AK",Alaska
+BTR,Baton Rouge,"Baton Rouge, LA",Louisiana
+BTV,Burlington,"Burlington, VT",Vermont
+SHV,Shreveport,"Shreveport, LA",Louisiana
+RWL,Rawlins,"Rawlins, WY",Wyoming
+SBA,Santa Barbara,"Santa Barbara, CA",California
+MCO,Orlando,"Orlando, FL",Florida
+APN,Alpena,"Alpena, MI",Michigan
+CRP,Corpus Christi,"Corpus Christi, TX",Texas
+TKA,Talkeetna,"Talkeetna, AK",Alaska
+DDC,Dodge City,"Dodge City, KS",Kansas
+MSY,New Orleans,"New Orleans, LA",Louisiana
+BIG,Delta Junction/Ft Greely,"Delta Junction/Ft Greely, AK",Alaska
+LAX,Los Angeles,"Los Angeles, CA",California
+GJT,Grand Junction,"Grand Junction, CO",Colorado
+PUB,Pueblo,"Pueblo, CO",Colorado
+CNK,Concordia,"Concordia, KS",Kansas
+SPI,Springfield,"Springfield, IL",Illinois
+LEX,Lexington,"Lexington, KY",Kentucky
+DLH,Duluth,"Duluth, MN",Minnesota
+DAY,Dayton,"Dayton, OH",Ohio
+CDS,Childress,"Childress, TX",Texas
+BIH,Bishop,"Bishop, CA",California
+RIC,Richmond,"Richmond, VA",Virginia
+ANC,Anchorage,"Anchorage, AK",Alaska
+ORT,Northway,"Northway, AK",Alaska
+ILI,Iliamna,"Iliamna, AK",Alaska
+GRR,Grand Rapids,"Grand Rapids, MI",Michigan
+PIH,Pocatello,"Pocatello, ID",Idaho
+AND,Anderson,"Anderson, SC",South Carolina
+HSE,Cape Hatteras,"Cape Hatteras, NC",North Carolina
+MGM,Montgomery,"Montgomery, AL",Alabama
+TOP,Topeka,"Topeka, KS",Kansas
+CAR,Caribou,"Caribou, ME",Maine
+OMA,Omaha,"Omaha, NE",Nebraska
+CPR,Casper,"Casper, WY",Wyoming
+SFO,San Francisco,"San Francisco, CA",California
+MFD,Mansfield,"Mansfield, OH",Ohio
+HRO,Harrison,"Harrison, AR",Arkansas
+OQT,Oak Ridge,"Oak Ridge, TN",Tennessee
+MKK,Kaunakakai,"Kaunakakai, HI",Hawaii
+ELP,El Paso,"El Paso, TX",Texas
+NWK,Newark,"Newark, DE",DE
+CMH,Columbus,"Columbus, OH",Ohio
+EUG,Eugene,"Eugene, OR",Oregon
+CYS,Cheyenne,"Cheyenne, WY",Wyoming
+OTZ,Kotzebue,"Kotzebue, AK",Alaska
+RFD,Rockford,"Rockford, IL",Illinois
+CON,Concord,"Concord, NH",New Hampshire
+HON,Huron,"Huron, SD",South Dakota
+SLC,Salt Lake City,"Salt Lake City, UT",Utah
+LSE,La Crosse,"La Crosse, WI",Wisconsin
+WRG,Wrangell,"Wrangell, AK",Alaska
+SGY,Skagway,"Skagway, AK",Alaska
+ELY,Ely,"Ely, NV",Nevada
+SNP,St Paul Island,"St Paul Island, AK",Alaska
+DLN,Dillon,"Dillon, MT",Montana
+DIK,Dickinson,"Dickinson, ND",North Dakota
+DAL,Dallas,"Dallas, TX",Texas
+BNO,Burns,"Burns, OR",Oregon
+LNK,Lincoln,"Lincoln, NE",Nebraska
+GFK,Grand Forks,"Grand Forks, ND",North Dakota
+FLL,Fort Lauderdale,"Fort Lauderdale, FL",Florida
+AGS,Augusta,"Augusta, GA",Georgia
+ALO,Waterloo,"Waterloo, IA",Iowa
+SBY,Salisbury,"Salisbury, MD",Maryland
+JNU,Juneau,"Juneau, AK",Alaska
+SHR,Sheridan,"Sheridan, WY",Wyoming
+UIL,Quillayute,"Quillayute, WA",Washington
+ATL,Atlanta,"Atlanta, GA",Georgia
+AMA,Amarillo,"Amarillo, TX",Texas
+SMX,Santa Maria,"Santa Maria, CA",California
+BET,Bethel,"Bethel, AK",Alaska
+RDM,Redmond,"Redmond, OR",Oregon
+SJU,San Juan,"San Juan, PR",Puerto Rico
+MIA,Miami,"Miami, FL",Florida
+PDT,Pendleton,"Pendleton, OR",Oregon
+BFF,Scottsbluff,"Scottsbluff, NE",Nebraska
+GST,Gustavus,"Gustavus, AK",Alaska
+ISP,Islip,"Islip, NY",New York
+BIL,Billings,"Billings, MT",Montana
+TRI,Bristol/Jhnsn Cty/Kngsprt,"Bristol/Jhnsn Cty/Kngsprt, TN",Tennessee
+MOB,Mobile,"Mobile, AL",Alabama
+OME,Nome,"Nome, AK",Alaska
+SGF,Springfield,"Springfield, MO",Missouri
+TUS,Tucson,"Tucson, AZ",Arizona
+P68,Eureka,"Eureka, NV",Nevada
+MCI,Kansas City,"Kansas City, MO",Missouri
+ABQ,Albuquerque,"Albuquerque, NM",New Mexico
+HOM,Homer,"Homer, AK",Alaska
+PTI,Puntilla Lake,"Puntilla Lake, AK",Alaska
+TPA,Tampa,"Tampa, FL",Florida
+BIS,Bismarck,"Bismarck, ND",North Dakota
+AKN,King Salmon,"King Salmon, AK",Alaska
+BOS,Boston,"Boston, MA",Massachusetts
+UIN,Quincy,"Quincy, IL",Illinois
+CAG,Craig,"Craig, CO",Colorado
+GFL,Glens Falls,"Glens Falls, NY",New York
+PDX,Portland,"Portland, OR",Oregon
+FSD,Sioux Falls,"Sioux Falls, SD",South Dakota
+SCK,Stockton,"Stockton, CA",California
+TUL,Tulsa,"Tulsa, OK",Oklahoma
+JAN,Jackson,"Jackson, MS",Mississippi
+BGM,Binghamton,"Binghamton, NY",New York
+MDT,Harrisburg,"Harrisburg, PA",Pennsylvania
+YAK,Yakutat,"Yakutat, AK",Alaska
+RST,Rochester,"Rochester, MN",Minnesota
+GPT,Gulfport,"Gulfport, MS",Mississippi
+WMC,Winnemucca,"Winnemucca, NV",Nevada
+MWN,Mt. Washington,"Mt. Washington, NH",New Hampshire
+HTL,Houghton Lake,"Houghton Lake, MI",Michigan
+LBB,Lubbock,"Lubbock, TX",Texas
+CGI,Cape Girardeau,"Cape Girardeau, MO",Missouri
+LIH,Lihue,"Lihue, HI",Hawaii
+ISN,Williston,"Williston, ND",North Dakota
+ILG,Wilmington,"Wilmington, DE",Delaware
+GRI,Grand Island,"Grand Island, NE",Nebraska
+DRA,Mercury,"Mercury, NV",Nevada
+LCH,Lake Charles,"Lake Charles, LA",Louisiana
+VCT,Victoria,"Victoria, TX",Texas
+SPS,Wichita Falls,"Wichita Falls, TX",Texas
+HSV,Huntsville,"Huntsville, AL",Alabama
+MCN,Macon,"Macon, GA",Georgia
+FWA,Fort Wayne,"Fort Wayne, IN",Indiana
+ANJ,Sault Ste Marie,"Sault Ste Marie, MI",Michigan
+RDU,Raleigh/Durham,"Raleigh/Durham, NC",North Carolina
+HWD,Hayward,"Hayward, CA",California
+ROC,Rochester,"Rochester, NY",New York
+MCG,Mc Grath,"Mc Grath, AK",Alaska
+MSO,Missoula,"Missoula, MT",Montana
+ACY,Atlantic City,"Atlantic City, NJ",New Jersey
+FAR,Fargo,"Fargo, ND",North Dakota
+CDV,Cordova,"Cordova, AK",Alaska
+MSP,Minneapolis,"Minneapolis, MN",Minnesota
+DEN,Denver,"Denver, CO",Colorado
+ROW,Roswell,"Roswell, NM",New Mexico
+GAG,Gage,"Gage, OK",Oklahoma
+ORD,Chicago,"Chicago, IL",Illinois
+PIA,Peoria,"Peoria, IL",Illinois
+LGB,Long Beach,"Long Beach, CA",California
+HVR,Havre,"Havre, MT",Montana
+ABI,Abilene,"Abilene, TX",Texas
+P28,Medicine Lodge,"Medicine Lodge, KS",Kansas
+PSG,Petersburg,"Petersburg, AK",Alaska
+NID,China Lake,"China Lake, CA",California
+DSM,Des Moines,"Des Moines, IA",Iowa
+OGG,Kahului,"Kahului, HI",Hawaii
+GTF,Great Falls,"Great Falls, MT",Montana
+MLS,Miles City,"Miles City, MT",Montana
+LBF,North Platte,"North Platte, NE",Nebraska
+EPH,Ephrata,"Ephrata, WA",Washington
+BGR,Bangor,"Bangor, ME",Maine
+BTM,Butte,"Butte, MT",Montana
+CAE,Columbia,"Columbia, SC",South Carolina
+SUX,Sioux City,"Sioux City, IA",Iowa
+BUF,Buffalo,"Buffalo, NY",New York
+BRW,Utqiagvik (Barrow),"Utqiagvik (Barrow), AK",Alaska
+GPI,Kalispell,"Kalispell, MT",Montana
+WAL,Wallops Island,"Wallops Island, VA",Virginia
+UNK,Unalakleet,"Unalakleet, AK",Alaska
+COS,Colorado Springs,"Colorado Springs, CO",Colorado
+MQE,Milton,"Milton, MA",Massachusetts
+GSO,Greensboro,"Greensboro, NC",North Carolina
+LZK,North Little Rock,"North Little Rock, AR",Arkansas
+AMG,Alma,"Alma, GA",Georgia
+CDB,Cold Bay,"Cold Bay, AK",Alaska
+BFL,Bakersfield,"Bakersfield, CA",California
+ALB,Albany,"Albany, NY",New York
+HTS,Huntington,"Huntington, WV",West Virginia
+HLN,Helena,"Helena, MT",Montana
+ILM,Wilmington,"Wilmington, NC",North Carolina
+GKN,Gulkana,"Gulkana, AK",Alaska
+INL,International Falls,"International Falls, MN",Minnesota
+OKC,Oklahoma City,"Oklahoma City, OK",Oklahoma
+ACT,Waco,"Waco, TX",Texas
+GNV,Gainesville,"Gainesville, FL",Florida
+CLT,Charlotte,"Charlotte, NC",North Carolina
+EKA,Eureka,"Eureka, CA",California
+HNL,Honolulu,"Honolulu, HI",Hawaii
+BCB,Blacksburg,"Blacksburg, VA",VA
+PHX,Phoenix,"Phoenix, AZ",Arizona
+AHN,Athens,"Athens, GA",Georgia
+ABR,Aberdeen,"Aberdeen, SD",South Dakota
+SDF,Louisville,"Louisville, KY",Kentucky
+TUP,Tupelo,"Tupelo, MS",Mississippi
+CHS,Charleston,"Charleston, SC",South Carolina
+ANN,Annette,"Annette, AK",Alaska
+ADQ,Kodiak,"Kodiak, AK",Alaska
+EYW,Key West,"Key West, FL",Florida
+PWM,Portland,"Portland, ME",Maine
+AVL,Asheville,"Asheville, NC",North Carolina
+DFW,Dallas-Fort Worth,"Dallas-Fort Worth, TX",Texas
+SAT,San Antonio,"San Antonio, TX",Texas
+FSM,Fort Smith,"Fort Smith, AR",Arkansas
+JAX,Jacksonville,"Jacksonville, FL",Florida
+LAS,Las Vegas,"Las Vegas, NV",Nevada
+IPT,Williamsport,"Williamsport, PA",Pennsylvania
+BDL,Windsor Locks,"Windsor Locks, CT",Connecticut
+BTT,Bettles,"Bettles, AK",Alaska
+KTN,Ketchikan,"Ketchikan, AK",Alaska
+HBG,Hattiesburg,"Hattiesburg, MS",Mississippi
