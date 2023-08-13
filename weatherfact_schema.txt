@@ -1,0 +1,1 @@
+Precipitation:FLOAT,CapDate:DATE,CityCode:STRING,TempAvg:FLOAT,TempMax:INTEGER,TempMin:INTEGER,WindDirection:INTEGER,WindSpeed:FLOAT
